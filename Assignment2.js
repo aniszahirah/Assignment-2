@@ -2,13 +2,6 @@ let turn = 0;
 const players =[{name: "Player 1", position: 0},
                 {name: "Player 2", position: 0}];
 
-/*function rollDice(){
-      var dice1 = document.getElementById("dice1");
-      var status = document.getElementById("status");
-      var d1 = Math.floor(Math.random() * 6) + 1;
-      dice1.innerHTML = d1;
-      status.innerHTML = "You rolled "+d1+".";
-}*/
 function rollDice(){
   var d1=Math.floor(Math.random()*6)+1;
   var move=document.querySelector('.move');
